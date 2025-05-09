@@ -1,0 +1,5 @@
+app/server/lib/** filter=lfs diff=lfs merge=lfs -text
+apps/server/lib/ffmpeg-n7.0/bin/ffmpeg filter=lfs diff=lfs merge=lfs -text
+apps/server/lib/ffmpeg-n6.1/bin/ffmpeg filter=lfs diff=lfs merge=lfs -text
+apps/server/lib/ffmpeg-n5.1/bin/ffmpeg filter=lfs diff=lfs merge=lfs -text
+apps/rtp-client/cache/recorder/camera_2/20241011170329.mp4 filter=lfs diff=lfs merge=lfs -text
