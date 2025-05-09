@@ -1,0 +1,18 @@
+{
+  "name": "amr-3d",
+  "private": true,
+  "scripts": {
+    "boot": "zx commands/init.mjs",
+    "build": "zx commands/build.mjs"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "zx": "^7.2.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "oxlint": "^0.9.9"
+  }
+}
